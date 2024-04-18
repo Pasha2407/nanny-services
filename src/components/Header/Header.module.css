@@ -1,0 +1,55 @@
+.Container {
+    width: 1184px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+}
+
+.Container>article {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+}
+
+.Logo>h3 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #fbfbfb;
+}
+
+.Routes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-left: 40px;
+}
+
+.Routes>nav {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fbfbfb;
+}
+
+.Auth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.Auth>nav {
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 30px;
+    padding: 14px 39px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fbfbfb;
+    background: #f03f3b;
+}
