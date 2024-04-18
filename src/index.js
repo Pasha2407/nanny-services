@@ -7,7 +7,7 @@ import './index.css';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/my-react-template">
+  <BrowserRouter basename="/nanny-services">
     <React.StrictMode>
       <App />
     </React.StrictMode>
