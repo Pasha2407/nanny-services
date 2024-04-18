@@ -1,3 +1,5 @@
+import css from './Nannies.module.css';
+
 export const Nannies = () => {
-  return <div></div>;
+  return <div className={css.Container}>Nannies</div>;
 };

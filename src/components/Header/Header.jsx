@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import css from './Header.module.css';
 
 export const Header = () => {
@@ -5,17 +6,17 @@ export const Header = () => {
     <div className={css.Container}>
       <article>
         <section className={css.Logo}>
-          <h3>Nanny.Services</h3>
+          <NavLink to="/">Nanny.Services</NavLink>
         </section>
       </article>
       <article>
-        <section className={css.Routes}>
-          <nav>Home</nav>
-          <nav>Nannies</nav>
-        </section>
+        <nav className={css.Routes}>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/nannies">Nannies</NavLink>
+        </nav>
         <section className={css.Auth}>
-          <nav>Log In</nav>
-          <nav>Registration</nav>
+          <button className={css.Login}>Log In</button>
+          <button className={css.Register}>Registration</button>
         </section>
       </article>
     </div>

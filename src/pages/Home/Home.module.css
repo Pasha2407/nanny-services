@@ -10,17 +10,50 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F03F3B;
+    border-radius: 30px 0 0 30px;
 }
 
 .Left>section {
     padding: 0 80px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .Left>section>h1 {
     font-weight: 500;
     font-size: 70px;
     color: #fbfbfb;
+}
+
+.Left>section>p {
+    font-weight: 400;
+    font-size: 28px;
+    color: #fbfbfb;
+}
+
+.Left>section>a {
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 30px;
+    width: 230px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fbfbfb;
+    background: none;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+.Left>section>a:hover {
+    border: 1px solid white;
 }
 
 .Right {
@@ -36,4 +69,48 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 0 30px 30px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.Nannies {
+    width: 284px;
+    height: 118px;
+    border-radius: 20px;
+    background: #fbfbfb;
+    margin: 0 50px 50px 0;
+    display: flex;
+}
+
+.Nannies>aside {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nannies>div {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.Nannies>div>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Nannies>div>div>span {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(17, 16, 28, 0.5);
+}
+
+.Nannies>div>div>b {
+    font-weight: 700;
+    font-size: 24px;
+    color: #11101c;
 }
